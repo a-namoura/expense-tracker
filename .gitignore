@@ -1,0 +1,55 @@
+# Local environment settings (safe templates remain versioned)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Credentials, private keys, and certificates
+.aws/
+.ssh/
+.npmrc
+.netrc
+credentials*
+secrets/
+secrets.*
+*.secret
+*passwords*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# Dependencies and generated output
+node_modules/
+build/
+dist/
+coverage/
+.cache/
+.pnp.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local databases, backups, and temporary review files
+*.db
+*.sqlite*
+*.dump
+*.bak
+tmp/
+temp/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Original report contains a password-hash screenshot
+/Abdallah Namoura - Personal Expense Tracker.pdf
